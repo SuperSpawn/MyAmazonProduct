@@ -1,4 +1,7 @@
 
+:root {
+    --slight-shadow-color: #333;
+}
 
 * {
     padding: 0;
@@ -12,11 +15,25 @@ body {
     align-items: center;
     justify-content: center;
     flex-direction: column;
+
+    
 }
 
-html {
-    text-align: center;
+
+
+
+/*utility classes*/
+.text-bold {
+    font-weight:900;
 }
+.green-text {
+    color: green;
+}
+.slight-shadow {
+    box-shadow: 1px 1px 3px var(--slight-shadow-color);
+}
+
+
 
 .navbar-container {
     height: 10vh;
@@ -34,11 +51,24 @@ html {
     align-items: center;
     height: 70vh;
 }
-.main-container div {
+.main-container > div {
     width: 30%;
     height: 100%;
     border: 2px solid black;
 }
+.main-container .right {
+    padding: 1rem;
+    border-radius: 10px;
+    border: 1px solid gainsboro;
+}
+.main-container .right a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.main-container .right a:hover {
+    color: orange;
+}
+
 .container-bought-together,
 .container-explore {
     height: 10vh;
