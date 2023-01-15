@@ -1,0 +1,72 @@
+:root {
+  --navbar-color: #131921;
+  --bottom-navbar-color: #232f3e
+}
+
+header {
+  width: 100%;
+  height: 9.9rem;
+  background-color: black;
+}
+
+.navbar {
+  background-color: var(--navbar-color);
+  height: 6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.navbar div{
+    border: 1px black solid;
+}
+
+.navbar .nav-left{
+    padding-right: 1rem;
+    width: 21.664rem;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .delivery{
+    width: 8.864rem;
+}
+
+.navbar .logo{
+    width: 11.3rem;
+}
+
+.search-container{
+    width: 100%;
+}
+
+.navbar .nav-right{
+    background-color: rgb(202, 227, 249);
+    width : 38.385rem;
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar .language {
+    width: 7.338rem;
+}
+
+.navbar .sign-in {
+    width: 13.153rem;
+}
+
+.navbar .return-and-order {
+    width: 7.694rem;
+}
+
+.navbar .cart {
+    width: 8.4rem;
+}
+
+.bottom-navbar {
+    background-color: var(--bottom-navbar-color);
+    height: 3.9rem;
+    width: 100%;
+}

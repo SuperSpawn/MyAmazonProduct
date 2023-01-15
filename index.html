@@ -6,85 +6,296 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Amazon copy</title>
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/top_part.css">
+    <link rel="stylesheet" href="./css/rigth_side.css">
+    <link rel="stylesheet" href="./css/middle_side.css">
     <link rel="stylesheet" href="./css/fonts.css">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/navbar.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/utils.css">
     <script src="https://kit.fontawesome.com/00ddc9cb71.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <nav class="navbar">
-            <div class="nav-left">
-                <div class="logo"></div>
-                <div class="delivery"></div>
+            <div class="nav-left ">
+                <div class="logo white-hover-border">
+                    <div class="logo-image-navbar"></div>
+                </div>
+                <div class="delivery white-hover-border">
+                    <img src="/assets/images/location.png" alt="L" class="location-icon">
+                    <div class="location-text">
+                        <span class="deliver-to-text">Deliver to</span>
+                        <div class="country-text">Israel</div>
+                    </div>
+                </div>
             </div>
-            <div class="search-container"></div>
+
+            <div class="search-container">
+                <div class="search-wrapper">
+                    <div class="select-container">
+                        <input class="navbar-search-input" type="text">
+                        <input class="background-search-input" type="text">
+                        <div class="overlay"></div>
+                        <select value="volvo" class="nav-search-dropdown" data-nav-selected="0" name="category-drop"
+                            id="category-drop">
+                            <option value="volvo">&nbsp;&nbsp;All </option>
+                            <option value="volvo">Saab Lorem ipsum dolor sit.</option>
+                            <option value="volvo">Opel</option>
+                            <option value="volvo">Audi</option>
+                        </select>
+                        <div class="sort-down-icon-container">
+                            <i class="fa-solid fa-sort-down"></i>
+                        </div>
+                        <div class="submit-magi-container">
+                            <i class="fa-solid fa-magnifying-glass"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
             <div class="nav-right">
-                <div class="language"></div>
-                <div class="sign-in"></div>
-                <div class="return-and-order"></div>
-                <div class="cart"></div>
+                <div class="language white-hover-border">
+                    <img style="width: 20px; height :14px; margin-top: 2px;" src="/assets/images/usa.jpg" alt="usa">
+                    <div class="language-text">EN
+                        <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+                <div class="sign-in white-hover-border">
+                    <span>Hello, sign in</span>
+                    <div class="account-list-text">
+                        <span>Account & Lists</span>
+                        <i class="fa-solid fa-sort-down"></i>
+                    </div>
+                </div>
+                <div class="return-and-order white-hover-border">
+                    <span>Returns</span>
+                    <span class="bold-style">& Orders</span>
+                </div>
+                <div class="cart white-hover-border">
+                    <span class="number-of-items">0</span>
+                    <div class="cart-image">
+                    </div>
+                    <span class="bold-style cart-text">Cart</span>
+                </div>
             </div>
         </nav>
-        <div class="bottom-navbar"></div>
+        <div class="bottom-navbar">
+            <div class="bottom-navbar-left">
+                <div class="left-item-one white-hover-border padding-link-bot-nav">
+                    <div class="hamburger"></div>
+                    <span>All</span>
+                </div>
+                <div class="left-item-two white-hover-border padding-link-bot-nav">Today's Deals</div>
+                <div class="left-item-three white-hover-border padding-link-bot-nav">Customer Service</div>
+                <div class="left-item-four white-hover-border padding-link-bot-nav">Registry</div>
+                <div class="left-item-five white-hover-border padding-link-bot-nav">Gift Cards</div>
+                <div class="left-item-six white-hover-border padding-link-bot-nav">Sell</div>
+            </div>
+            <span class="bottom-navbar-right white-hover-border padding-link-bot-nav">Shop deals in Electronics</span>
+        </div>
     </header>
-    <div class="image-container">
-        <img class="push-image" src="" alt="">
-    </div>
-    <ul></ul>
-    
-    
-    <div class="main-container">
-        <div class="left"></div>
-        <div class="middle"></div>
-        <div class="right">
-            <p>$17 99 ($3.00 / Count)</p>
-            <p>
-                No Import Fees Deposit & $11.18 Shipping
-                to Israel
-            </p>
-            <a class="details-box" href="#">Details</a>
-            <p>FREE delivery 
-                <span class="text-bold">
-                    Monday, January 30
-                </span>
-                to Israel on $49 of eligible items.
-                Order withen <span class="green-text">18 hrs 35 mins</span>
-            </p>
-            <p>Or fastest delivery 
-                <span class="text-bold">
-                    Monday, January 23
-                </span>
-            </p>
 
-            <a class="deliver-box" href="#">Deliver to Israel</a>
-            <p class="green-text">In Stock.</p>
-            <button class="slight-shadow">Qty: 1<i class="fa-solid fa-chevron-down"></i></button>
-            <a class="cart-button" href="#">Add to Cart</a>
-            <a class="buy-button" href="#">Buy Now</a>
-            <a href="#">Secure transaction</a>
-            <p>Ships from <span>Amazon</span></p>
-            <p>Sold by <a href="#">Amazon Export Sales...</a></p>
-            <div class="horizontal-thin-line"></div>
-            <a href="#">Details</a>
-            <p>Return policy: 
-                <a class="return-policy-link" href="#">
-                    Eligible for Return, Refund or Replacement
-                    within 30 days of receipt <span><!--arrow down symbol--></span>
-                </a>
-            </p>
-            <p>
-                <input type="checkbox" name="gift-receipt" id="gift-receipt">
-                Add a gift receipt for easy returns
-            </p>
-            <div class="horizontal-thin-line"></div>
-            <button>Add to List</button>
+
+    <div class="ads-image-container">
+        <img alt="International Kindle Paperwhite" src="assets/images/under_nav_picture.jpg" class="ads-image-top">
+    </div>
+
+
+    <div class="links-container">
+        <ul class="category-list">
+            <li class="links">Clothing, Shoes & Jewelry</li>
+            <li> ›</li>
+            <li class="links"> Novelty & More</li>
+            <li> ›</li>
+            <li class="links"> Clothing</li>
+            <li> ›</li>
+            <li class="links"> Novelty</li>
+            <li> ›</li>
+            <li class="links"> Men</li>
+            <li> ›</li>
+            <li class="links"> Accessories</li>
+            <li> ›</li>
+            <li class="links"> Hats & Caps</li>
+            <li> ›</li>
+            <li class="links"> Beanies & Knit Hats</li>
+        </ul>
+    </div>
+
+    <div class="page-container">
+        <div class="main-container">
+            <div class="left">
+                <img class="product-image" src="./assets/images/main-product4.jpg" alt="product">
+                
+                <div class="left-images-list">
+                    <ul>
+                        <li><img src="./assets/images/main-product2.jpg" alt=""></li>
+                        <li><img src="./assets/images/main-product2.jpg" alt=""></li>
+                        <li><img src="./assets/images/main-product2.jpg" alt=""></li>
+                        <li><img src="./assets/images/" alt=""></li>
+                        <li><img src="./assets/images/" alt=""></li>
+                        <li><img src="./assets/images/" alt=""></li>
+                        <li><img src="./assets/images/" alt=""></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="middle">
+                <h2>Oral-B Pro Crossaction Health All In One Soft Toothbrushes, 6 Count</h2>
+                <a href="#">Visit the Oral-B Store</a>
+                <div class="item-ratings">
+                    <a class="sprite" href="#"></a>
+                    <a href="#">13,882 ratings</a>
+                    <p>|</p>
+                    <a href="#">40 answered questions</a>
+                </div>
+                <div class="horizontal-thin-line"></div>
+                <p>
+                    <span class="small moved-up">$</span><span class="large-text">17</span><span class="small moved-up">99</span> <span class="smaller">($3.00 / Count)</span>
+                </p>
+                <p>
+                    No Import Fees Deposit & $11.18 Shipping
+                    to Israel
+                </p>
+                <a class="details-box" href="#">Details <i class="fa-solid fa-chevron-down"></i></a>
+
+                <div class="item-info">
+                    
+                    <ul>
+                        <li class="text-bold">Brand</li>
+                        <li class="text-bold">Age Range (Description)</li>
+                        <li class="text-bold">Special Feature</li>
+                        <li class="text-bold">Power Source</li>
+                        <li class="text-bold">Item Firmness Desciption</li>
+                    </ul>
+                
+                    
+                    <ul>
+                        <li class="text-light">Oral-B</li>
+                        <li class="text-light">Adult</li>
+                        <li class="text-light">Built in Tongue Scraper</li>
+                        <li class="text-light">Manual</li>
+                        <li class="text-light">Soft</li>
+                    </ul>
+                    
+                </div>
+
+                <div class="horizontal-thin-line"></div>
+
+                <h3 class="bold-text">About this item</h3>
+                <ul class="info-list list-deco-circle">
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Molestias, officiis.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur.</li>
+                    <li>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non debitis neque delectus hic commodi porro obcaecati vel quis nulla dignissimos.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet consectetur adipisicing.</li>
+                </ul>
+                
+                <a class="bottom-link" href="#">Compare with similar items</a>
+                <div class="horizontal-thin-line"></div>
+                <h3>Similar item to consider</h3>
+                <img class="amazon-choice" src="./assets/images/amazon-choice.png" alt="amazon-choice">
+                <div class="similar-items-consider">
+                    <div>
+                        <a class="other-product-image2" href="#"></a>
+                    </div>
+                    <div>
+                        <a href="#">Lorem, ipsum dolor sit amet consectetur adipisicing.</a>
+                        <p class="small">4 Count (Pack of 1)</p>
+                        <div class="sprite"></div>
+                        <p><span class="crimson-text">$8.06</span> ($2.02/Count)</p>
+                    </div>
+                </div>
+            </div>
+            <div class="right">
+                <ul>
+                    <li class="card1">
+                        <p>
+                            <span class="small moved-up">$</span><span class="large-text">17</span><span class="small moved-up">99</span> <span class="smaller">($3.00 / Count)</span>
+                        </p>
+                        <p>
+                            No Import Fees Deposit & $11.18 Shipping
+                            to Israel
+                        </p>
+                        <a class="details-box" href="#">Details <i class="fa-solid fa-chevron-down"></i></a>
+                        <p>FREE delivery 
+                            <span class="text-bold">
+                                Monday, January 30
+                            </span>
+                            to Israel on $49 of eligible items.
+                            Order withen <span class="green-text">18 hrs 35 mins</span>
+                        </p>
+                        <p>Or fastest delivery 
+                            <span class="text-bold">
+                                Monday, January 23
+                            </span>
+                        </p>
+            
+                        <a class="deliver-box" href="#">Deliver to Israel</a>
+                        <p class="green-text">In Stock.</p>
+                        <button class="quantity-button capsule-border slight-shadow ">Qty: 1 <i class="fa-solid fa-chevron-down"></i></button>
+                        <a href="#" class="cart-button round-border full-width text-center">Add to Cart</a>
+                        <a href="#" class="buy-button round-border full-width text-center" >Buy Now</a>
+                        <a href="#"><i class="icon-margin color-grey fa-sharp fa-solid fa-lock"></i> Secure transaction</a>
+                        <p class="small-font">Ships from <span>Amazon</span></p>
+                        <p class="small-font">Sold by <a class="hover-underline" href="#">Amazon Export Sales</a>...</p>
+                        <div class="horizontal-thin-line full-width"></div>
+                        <a class="small-font" href="#">Details</a>
+                        <p>Return policy: 
+                            <a class="return-policy-link" href="#" link="Read full return policy">
+                                Eligible for Return, Refund or Replacement
+                                within 30 days of receipt <i class="fa-solid fa-chevron-down"></i>
+                            </a>
+        
+                        </p>
+                        <p>
+                            <input type="checkbox" name="gift-receipt" id="gift-receipt">
+                            Add a gift receipt for easy returns
+                        </p>
+                        <div class="horizontal-thin-line full-width"></div>
+                        <button href="#" class="list-button full-width text-left">Add to List</button>
+                    </li>
+
+                    <li class="card2">
+                        <p class="text-center">Add other items:</p>
+                        <ul class="other-items-list">
+                            <li>
+                                <a href="#">Lorem ipsum  magni perspiciatis, recusandae possimus, nemo quidem vitae sed doloribus esse at facere quam, nostrum dolor.</a>
+                                <div class="item-price-footer">
+                                    <p class="crimson-text">$8.25</p>
+                                    <a class="cart-button" href="#">Add to Cart</a> 
+                                </div>
+                            </li>
+                            <li>
+                                <a href="#">Lorem ipsum  magni perspiciatis, recusandae possimus, nemo quidem vitae sed doloribus esse at facere quam, nostrum dolor.</a>
+                                <div class="item-price-footer">
+                                    <p class="crimson-text">$8.25</p>
+                                    <a class="cart-button" href="#">Add to Cart</a>
+                                </div>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="card3">
+                        <div class="sell-on-amazon">
+                            <p class="small text-center">Have one to sell?</p>
+                            <button class="auto-marg sell-on-amazon-button" href="#">Sell on Amazon</button>
+                        </div>
+                        
+                        <a class="other-item" href="#"></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="container-bought-together">
+    
+        </div>
+        <div class="container-explore">
+    
         </div>
     </div>
-    <div class="container-bought-together">
-
-    </div>
-    <div class="container-explore">
-
-    </div>
+    
+    
+    
+    
 </body>
 </html>

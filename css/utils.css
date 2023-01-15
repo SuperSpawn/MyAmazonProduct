@@ -1,0 +1,58 @@
+
+
+
+
+/*utility classes*/
+.text-bold {
+    font-weight:900;
+}
+.text-light {
+    font-weight: 400;
+}
+.list-deco-circle {
+    list-style: disc;
+}
+.green-text {
+    color: green;
+}
+.slight-shadow {
+    box-shadow: 1px 1px 6px var(--slight-shadow-color);
+}
+.small {
+    font-size: 70.5%;
+}
+.moved-up {
+    position: relative;
+    top: -1.5rem;
+}
+.large-text {
+    font-size: xx-large;
+}
+.capsule-border {
+    border-radius: 0.6rem;
+    border: 1px solid white;
+}
+.round-border {
+    border-radius: 3rem;
+}
+.full-width {
+    width: 100%;
+}
+.text-left {
+    text-align: left;
+}
+.text-center {
+    text-align: center;
+}
+.color-grey {
+    color: grey;
+}
+
+.crimson-text {
+    color: crimson;
+}
+.horizontal-thin-line {
+    border-bottom: 1px solid gainsboro;
+}
+
+

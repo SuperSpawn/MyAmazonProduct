@@ -1,0 +1,72 @@
+
+
+
+
+
+.main-container > .middle > h2 {
+    color: black;
+    
+} 
+
+.main-container >.middle a {
+    text-decoration: none;
+    color: cadetblue;
+}
+.main-container >.middle a:hover {
+    color: orange;
+    text-decoration: underline;
+}
+
+.main-container > .middle > .item-ratings {
+    display: flex;
+}
+.main-container > .middle > .item-ratings > a,
+.main-container > .middle > .item-ratings > p {
+    padding-left: 1rem;
+}
+.main-container > .middle > .item-info {
+    display: flex;
+}
+.main-container > .middle > .item-info > ul {
+    list-style: none;
+    padding-right: 4rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.main-container > .middle > .item-info > ul > li {
+    padding-bottom: 1rem;
+}
+.main-container > .middle > .info-list {
+    margin-left: 2rem;
+}
+
+.main-container > .middle > .bottom-link {
+    margin-top: 5rem;
+    margin-bottom: 1rem;
+}
+.main-container > .middle > .similar-items-consider {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.main-container > .middle > .similar-items-consider > div > .other-product-image2  {
+    background-image: url('../assets/images/other-product2.jpg');
+    width: 10rem;
+    display: block;
+    height: 10rem;
+}
+
+
+.sprite {
+	background: url('../assets/images/sprites_rating.png') no-repeat -2px -2px;
+	width: 80px;
+	height: 15px;
+    display: block;
+}
+
+.amazon-choice {
+    width: 13rem;
+    height: 3rem;
+}
+
